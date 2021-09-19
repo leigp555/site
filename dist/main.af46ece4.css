@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::after,
+::before {
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.body {
+  position: relative;
+}
+.logo {
+  width: 314px;
+  margin: 20px auto;
+}
+body {
+  background: #fff;
+}
+
+.nav-head {
+  margin: 50px 40px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  outline: none;
+  width: 100%;
+  height: 40px;
+  padding: 0 15px;
+  margin-right: 10px;
+  border: 2px solid #c4c7ce;
+  border-radius: 10px;
+}
+.submit {
+  white-space: nowrap;
+  padding: 0 28px;
+  background: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px 10px;
+  margin: 0 30px;
+}
+.main > li {
+  width: 150px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  vertical-align: -0.15em;
+  fill: #000;
+  overflow: hidden;
+}
+.icon-a {
+  width: 74px;
+  height: 74px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container,
+.end {
+  font-size: 16px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  background: #fff;
+}
+.container {
+  position: relative;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.image {
+  font-size: 34px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+}
+span {
+  text-align: center;
+
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.png-A,
+.icon-a {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+.container:hover,
+.end:hover {
+  background: #e8e8e9;
+}
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 14px;
+}
+
+.icon-x {
+  width: 20px;
+  height: 20px;
+  vertical-align: -0.15em;
+  fill: #000;
+  overflow: hidden;
+}
+
+@media (min-width: 500px) {
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    justify-content: center;
+    column-gap: 15px;
+    row-gap: 20px;
+  }
+  .nav-head {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    width: 400px;
+  }
+  .logo{
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+   
+    width: 210px;
+  }
+  .nav-head {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .container,
+  .end {
+    background: #e8e8e9;
+  }
+}
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
